@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'titleSection.dart';
 import 'textSection.dart';
+import 'mybutton.dart';
 
 void main() => runApp(MyApp());
 
@@ -97,7 +98,8 @@ class MyHomePage extends StatelessWidget {
           ),
           titleSection,
           buttonSection,
-          textSection
+          textSection,
+          MyButton()
         ],
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
