@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'titleSection.dart';
+import 'textSection.dart';
 
 void main() => runApp(MyApp());
 
@@ -107,7 +108,8 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
         children: <Widget>[
           titleSection,
-          buttonSection
+          buttonSection,
+          textSection
         ],
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
